@@ -5,14 +5,14 @@ let rangeEndDate = null;
 
 // 1. Data Kode Unik (Simulasi)
 const userCodes = {
-  "Wahyu": "DnaPembangunMasyarakat21",
-  "Zaskia": "3231",
-  "Nina": "5453",
-  "Eki": "6564",
-  "Layla": "7675",
-  "Fida": "9291",
-  "Lorent": "7372",
-  "Jihan": "8685"
+  "Wahyu": "200606",
+  "Zaskia": "500707",
+  "Nina": "100101",
+  "Eki": "400404",
+  "Layla": "900909",
+  "Fida": "200202",
+  "Lorent": "900101",
+  "Jihan": "700707"
 };
 
 document.getElementById('loginBtn').addEventListener('click', async function() {
@@ -723,6 +723,7 @@ function applyWeeklyGrid(mingguan) {
     if (checkbox) checkbox.checked = true;
   });
 }
+
 
 
 
