@@ -6,7 +6,7 @@ let rangeEndDate = null;
 // 1. Data Kode Unik (Simulasi)
 const userCodes = {
   "Wahyu": "200606",
-  "Zaskia": "500707",
+  "Zaskia": "500505",
   "Nina": "100101",
   "Eki": "400404",
   "Layla": "900909",
@@ -723,6 +723,7 @@ function applyWeeklyGrid(mingguan) {
     if (checkbox) checkbox.checked = true;
   });
 }
+
 
 
 
